@@ -12,8 +12,8 @@ public class Main {
         double radio = sc.nextDouble();
 
         Circulo c = new Circulo(radio);
-        System.out.println(c.getArea());
-        System.out.println(c.getPerimetro());
+        System.out.println(" el area del circulo es: " + c.getArea());
+        System.out.println(" El perimetro es: " + c.getPerimetro());
 
     }
 }
